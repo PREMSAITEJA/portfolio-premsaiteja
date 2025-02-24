@@ -38,10 +38,22 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
-      </motion.div>
+      <div className='flex flex-wrap justify-between items-center'>
+        <motion.div variants={textVariant()} className='flex-1'>
+          <p className={styles.sectionSubText}>Introduction</p>
+          <h2 className={styles.sectionHeadText}>Overview.</h2>
+        </motion.div>
+
+        <motion.div
+          className='relative w-60 h-60 rounded-full overflow-hidden transition-transform duration-500 hover:scale-105 ml-10'
+        >
+          <img
+            src='https://res.cloudinary.com/dybjklvdl/image/upload/v1739197336/IMG_20240815_102133109_HDR_PORTRAIT_1_h9ehbn.jpg'
+            alt='Your Name'
+            className='w-auto h-auto object-cover'
+          />
+        </motion.div>
+      </div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
