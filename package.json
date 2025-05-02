@@ -30,6 +30,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^5.4.0",
     "react-lottie": "^1.2.4",
+    "react-parallax-tilt": "^1.7.294",
     "react-router-dom": "^6.8.1",
     "react-tilt": "^0.1.4",
     "react-vertical-timeline-component": "^3.6.0",
