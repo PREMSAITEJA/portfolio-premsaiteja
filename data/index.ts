@@ -72,36 +72,36 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Emotional Support ChatBot 🤖",
-    des: "This chatbot is for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.",
-    img: "../public/p2.svg",
-    iconLists: ["../public/bot-svgrepo-com.svg", "../public/python-svgrepo-com.svg", "../public/cloud.svg", "../public/stream.svg"],
-    link: "https://github.com/PREMSAITEJA/Emotional-Support-ChatBot/tree/main",
+    title: "3D Solar System Planets to Explore",
+    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    img: "/p1.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "/ui.earth.com",
   },
   {
     id: 2,
-    title: "BujjiAi-Article Summarizer",
-    des: "Simplify your reading with Summize , an open-source article Summarizer that transforms lengthy articles into clear and concise summaries.",
-    img: "../public/p1.svg.svg",
-    iconLists: ["../public/re.svg", "../public/cloud.svg", "../public/tail.svg",],
-    link: "https://bujjigpt4.netlify.app/",
+    title: "Yoom - Video Conferencing App",
+    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    img: "/p2.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "/ui.yoom.com",
   },
   {
     id: 3,
     title: "AI Image SaaS - Canva Application",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg",],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
   },
-  // {
-  //   id: 4,
-  //   title: "Animated Apple Iphone 3D Website",
-  //   des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-  //   img: "/p4.svg",
-  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-  //   link: "/ui.apple.com",
-  // },
+  {
+    id: 4,
+    title: "Animated Apple Iphone 3D Website",
+    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    img: "/p4.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "/ui.apple.com",
+  },
 ];
 
 export const testimonials = [
@@ -204,14 +204,14 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "../public/git.svg",
+    img: "/git.svg",
   },
   {
     id: 2,
-    img: "../public/twit.svg",
+    img: "/twit.svg",
   },
   {
     id: 3,
-    img: "../public/link.svg",
+    img: "/link.svg",
   },
 ];

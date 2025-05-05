@@ -25,9 +25,6 @@ const EarthCanvas = () => {
         far: 200,
         position: [-4, 3, 6],
       }}
-      onCreated={({ gl }) => {
-        gl.dispose(); // Dispose of the WebGL context when no longer needed
-      }}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
