@@ -204,14 +204,20 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    name: "GitHub",
+    icon: "../src/assets/github.png", // Correct path to the icon
+    link: "https://github.com/PREMSAITEJA", // Valid GitHub link
   },
   {
     id: 2,
-    img: "/twit.svg",
+    name: "Twitter",
+    icon: "../src/assets/twitter.png",
+    link: "https://x.com/TejaSai30024",
   },
   {
     id: 3,
-    img: "/link.svg",
+    name: "LinkedIn",
+    icon: "../src/assets/Linkedin.png",
+    link: "https://www.linkedin.com/in/thulva-pram-sai-teja-51b0ab244/",
   },
 ];

@@ -38,7 +38,7 @@ const About = () => {
     <>
       <div className='flex flex-wrap justify-between items-center'>
         <motion.div variants={textVariant()} className='flex-1'>
-          <p className={styles.sectionSubText}>Introduction</p>
+          <p className={styles.sectionSubText}>About Me</p>
           <h2 className={styles.sectionHeadText}>Overview.</h2>
         </motion.div>
 
@@ -57,7 +57,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a part time developer and a full time explorer with experience in TypeScript and
+        Hello ! 👋🏻 I'm Prem, a part time developer and a full time explorer with experience in TypeScript and
         JavaScript, and expertise in frameworks like React, Node.js, and
         Three.js. I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
