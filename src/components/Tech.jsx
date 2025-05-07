@@ -7,7 +7,7 @@ import { technologies } from "../constants";
 const Tech = () => {
   return (
     <div>
-      <h2 className={styles.sectionHeadText}>Tech Stack.</h2> 
+      <h2 className={styles.sectionHeadText}>Tech<span className="text-purple-300">Stack.</span></h2> 
       <p className={styles.sectionSubText}> I was familiar with : </p>
       <br />
     <div className='flex flex-row flex-wrap justify-center gap-10'>

@@ -39,7 +39,7 @@ const About = () => {
       <div className='flex flex-wrap justify-between items-center'>
         <motion.div variants={textVariant()} className='flex-1'>
           <p className={styles.sectionSubText}>About Me</p>
-          <h2 className={styles.sectionHeadText}>Overview.</h2>
+          <h2 className={styles.sectionHeadText}>Over<span className="text-purple-300">view.</span></h2>
         </motion.div>
 
         <motion.div

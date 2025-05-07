@@ -6,13 +6,15 @@ import { socialMedia } from "../../data"; // Ensure the correct path to the data
 function Footer() {
   return (
     <footer className="w-full pt-20 pb-10" id="contact">
-      <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
+      <div className="flex mt-16 md:flex-row flex-col justify-between items-center ml-7">
         <p className="md:text-base text-sm md:font-normal font-light pl-10">
           Copyright © 2025 <br />
           <span> Prem Sai Teja </span>
         </p>
-
-        <div className="flex items-center md:gap-3 gap-6 pl-10 w-full md:w-auto">
+        <div className="flex items-center md:gap-3 gap-6 mr-12 w-full md:w-auto">
+          Let's Connect
+          <br />
+          
           {socialMedia.map((info) => (
             <a
               key={info.id}
