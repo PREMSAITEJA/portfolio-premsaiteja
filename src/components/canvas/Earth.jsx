@@ -5,10 +5,25 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Earth = () => {
-  const earth = useGLTF("./planet/scene.gltf");
+  const { scene } = useGLTF("./planet/scene.gltf");
+
+  if (!scene) {
+    console.error("GLTF model is not loaded properly.");
+    return null;
+  }
+
+  // Validate the geometry
+  scene.traverse((child) => {
+    if (child.isMesh) {
+      const geometry = child.geometry;
+      if (!geometry || !geometry.attributes.position) {
+        console.error("Invalid geometry detected in GLTF model.");
+      }
+    }
+  });
 
   return (
-    <primitive object={earth.scene} scale={2.5} position-y={0} rotation-y={0} />
+    <primitive object={scene} scale={2.5} position-y={0} rotation-y={0} />
   );
 };
 

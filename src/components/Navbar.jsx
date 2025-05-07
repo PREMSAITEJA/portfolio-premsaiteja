@@ -45,7 +45,7 @@ const Navbar = () => {
           <img src="https://img.freepik.com/premium-vector/p-logo-design-letter-p-logo-design_650465-706.jpg?w=740" alt='logo' className='w-10 h-10  object-contain rounded-full overflow-hidden transition-transform duration-600 hover:scale-105 ml-10' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Prem &nbsp;
-            <span className='sm:block hidden'> | Portfolio</span>
+            <span className='sm:block'> | Portfolio</span>
           </p>
         </Link>
 
