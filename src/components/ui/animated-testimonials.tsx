@@ -68,7 +68,7 @@ export const AnimatedTestimonials = ({
                   }`}
                 >
                   <img
-                    src={testimonial.src}
+                    src={testimonial.src || ""}
                     alt={testimonial.name}
                     className="h-full w-full object-cover rounded-3xl"
                   />
@@ -79,13 +79,13 @@ export const AnimatedTestimonials = ({
         </div>
 
         {/* Content Section */}
-        <div className="flex flex-col justify-between py-4">
+        <div className="flex flex-col justify-between py-5">
           <motion.div
             key={active}
             initial={{ y: 20, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
+            animate={{ y: 2, opacity: 2 }}
             exit={{ y: -20, opacity: 0 }}
-            transition={{ duration: 0.2, ease: "easeInOut" }}
+            transition={{ duration: 0.3, ease: "easeInOut" }}
           >
             <h3 className="text-2xl font-bold text-black dark:text-white">
               {testimonials[active].name}

@@ -15,11 +15,11 @@ const RecentProjects = () => {
   }
 
   return (
-    <div className="w-full py-20">
+    <div className="w-full py-20 mt-5">
       <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-purple-300 text-center">
         A small selection of <span className="text-white">recent projects</span>
       </h1>
-      <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center items-center p-4 md:p-10 lg:p-12">
+      <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center items-center p-4 md:p-10 lg:p-12">
         {projects.map((project, index) => (
           <div
             key={index}
@@ -35,21 +35,23 @@ const RecentProjects = () => {
                 </CardItem>
                 <CardItem
                   as="p"
-                  translateZ="30"
-                  className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300 line-clamp-2"
+                  translateZ="50"
+                  className="text-neutral-500 text-sm max-w-sm mt-3 dark:text-neutral-300 line-clamp-10"
                 >
                   {project.des}
                 </CardItem>
                 <CardItem
                   translateZ="40"
-                  className="w-full mt-4 overflow-hidden rounded-xl bg-purple-800" // Brinjal color background
+                  className="w-full mt-4 overflow-hidden rounded-xl relative group" // Added 'relative' and 'group' for hover effects
                 >
-                  <div className="relative w-full h-[15vh] md:h-[18vh] lg:h-[20vh] overflow-hidden">
+                  <div className="relative w-full h-[20vh] md:h-[20vh] lg:h-[22vh] overflow-hidden">
                     <img
                       src={project.img}
                       alt={project.title}
-                      className="z-10 absolute bottom-0 w-full h-full object-cover group-hover/card:shadow-xl"
+                      className="z-auto absolute bottom-0 w-full h-full object-cover group-hover:scale-110 transition-transform duration-300 ease-in-out" // Added hover scale effect
                     />
+                    {/* Optional overlay for better visual effect */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out"></div>
                   </div>
                 </CardItem>
                 <div className="flex flex-wrap gap-2 mt-4">
@@ -58,7 +60,7 @@ const RecentProjects = () => {
                       key={iconIndex}
                       src={icon}
                       alt="icon"
-                      className="w-6 h-6"
+                      className="w-8 h-7 "
                     />
                   ))}
                 </div>
@@ -67,10 +69,18 @@ const RecentProjects = () => {
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center text-purple text-xs md:text-sm lg:text-base"
+                    className="flex items-center text-purple  px-4 py-2 text-white bg-white-700 hover:bg-orange-700 rounded-full text-xs md:text-sm lg:text-base transition duration-300 ease-in-out"
                   >
                     <FaGithub className="mr-2" />
                     View Source
+                  </a>
+                  <a
+                    href={project.liveSite}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 text-white bg-white-700 hover:bg-orange-700 rounded-full text-xs md:text-sm lg:text-base transition duration-300 ease-in-out"
+                  >
+                    Live Site →
                   </a>
                 </div>
               </CardBody>
