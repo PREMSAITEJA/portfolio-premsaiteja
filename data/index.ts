@@ -210,14 +210,20 @@ export const socialMedia = [
   },
   {
     id: 2,
+    name: "LinkedIn",
+    icon: "../src/assets/Linkedin.png",
+    link: "https://www.linkedin.com/in/thulva-pram-sai-teja-51b0ab244/",
+  },
+  {
+    id: 3,
     name: "Twitter",
     icon: "../src/assets/twitter.png",
     link: "https://x.com/TejaSai30024",
   },
   {
-    id: 3,
-    name: "LinkedIn",
-    icon: "../src/assets/Linkedin.png",
-    link: "https://www.linkedin.com/in/thulva-pram-sai-teja-51b0ab244/",
+    id: 4,
+    name: "Instagram",
+    icon: "../src/assets/instagram.png",
+    link: "https://www.instagram.com/prem_sai_tej_/",
   },
 ];
