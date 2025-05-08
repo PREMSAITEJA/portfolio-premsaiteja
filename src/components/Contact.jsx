@@ -28,42 +28,72 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
 
+    // Send email using EmailJS
     emailjs
       .send(
-        'service_69pzflm',
-        'template_zuqpd0i',
+        "service_69pzflm",
+        "template_zuqpd0i",
         {
           from_name: form.name,
-          to_name: form.name, // The user's name
+          to_name: form.name,
           from_email: form.email,
-          to_email: form.email, // The user's email
+          to_email: form.email,
           message: form.message,
         },
-        '08vOMnZnVUEz-SvEs',
+        "08vOMnZnVUEz-SvEs"
       )
       .then(
         () => {
-          setLoading(false);
-          setSuccess(true);
-          setTimeout(() => setSuccess(false), 3000); // Hide success message after 3 seconds
-
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
+          console.log("Email sent via EmailJS");
         },
         (error) => {
-          setLoading(false);
-          console.error(error);
-
-          alert("Ahh, something went wrong. Please try again.");
+          console.error("EmailJS Error:", error);
         }
       );
+
+    // Send email using Nodemailer via API
+    try {
+      const response = await fetch("/api/sendEmail", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: form.name,
+          email: form.email,
+          message: form.message,
+        }),
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        console.error("Nodemailer Error:", errorData.message);
+        throw new Error(errorData.message);
+      }
+
+      const data = await response.json();
+      if (data.success) {
+        console.log("Email sent via Nodemailer");
+      } else {
+        console.error("Nodemailer Error:", data.message);
+      }
+    } catch (error) {
+      console.error("Error sending email via Nodemailer:", error.message);
+    }
+
+    setLoading(false);
+    setSuccess(true);
+    setTimeout(() => setSuccess(false), 3000); // Hide success message after 3 seconds
+
+    setForm({
+      name: "",
+      email: "",
+      message: "",
+    });
   };
 
   return (

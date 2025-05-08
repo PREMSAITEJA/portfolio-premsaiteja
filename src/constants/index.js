@@ -120,6 +120,7 @@ const experiences = [
     company_name: "Infosys SpringBoard",
     icon: starbucks,
     iconBg: "#383E56",
+    certificateLink:"https://drive.google.com/file/d/1R0lIxq19ZpB6lIAIz84TXx-7xaP5yOXg/view?usp=sharing",
     date: "26th November 2024 - 31st January 2025",
     points: [
       "Contributed to developing an AI-powered tool for real-time sentiment analysis to optimize deal negotiations.",
@@ -159,6 +160,7 @@ const experiences = [
     company_name: "Bird Code Community",
     icon: meta,
     iconBg: "#E6DEDD",
+    certificateLink:"https://media.licdn.com/dms/image/v2/D562DAQGVHwiQw9zZPQ/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1708853596827?e=1747292400&v=beta&t=VbtWZUrh-iwpuXr6kuVNm2Y7hK_HuOlvHPog0lOKHF4",
     date: "Febrauary 2024 - June 2024",
     points: [
       "Developed an innovative project called “Air Canvas” using Python, OpenCV, and NumPy. The project allows users to draw or write in the air, with the following features.",
@@ -170,41 +172,28 @@ const experiences = [
 ];
 
 const testimonials = [
-    {
-      quote:
-        "The attention to detail and innovative features have completely transformed our workflow. This is exactly what we've been looking for.",
-      name: "Sarah Chen",
-      designation: "Product Manager at TechFlow",
-      
-    },
-    {
-      quote:
-        "Implementation was seamless and the results exceeded our expectations. The platform's flexibility is remarkable.",
-      name: "Michael Rodriguez",
-      designation: "CTO at InnovateSphere",
-      src: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
-    {
-      quote:
-        "This solution has significantly improved our team's productivity. The intuitive interface makes complex tasks simple.",
-      name: "Emily Watson",
-      designation: "Operations Director at CloudScale",
-      src: "https://images.unsplash.com/photo-1623582854588-d60de57fa33f?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
-    {
-      quote:
-        "Outstanding support and robust features. It's rare to find a product that delivers on all its promises.",
-      name: "James Kim",
-      designation: "Engineering Lead at DataPro",
-      src: "https://images.unsplash.com/photo-1636041293178-808a6762ab39?q=80&w=3464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
-    {
-      quote:
-        "The scalability and performance have been game-changing for our organization. Highly recommend to any growing business.",
-      name: "Lisa Thompson",
-      designation: "VP of Technology at FutureNet",
-      src: "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?q=80&w=2592&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    },
+  {
+    quote:
+      "This 30-hour coding marathon was a platform for innovation, challenging us to unlock the true potential of technology. It was an exhilarating experience to compete and collaborate with talented peers, as we developed proof-of-concepts for transformative solutions.",
+    name: "#30 Hacks Hackathon by GlobalLogic",
+    designation: "Delhi , India",
+    src: "https://media.licdn.com/dms/image/v2/D5622AQHIMjZP2vTh4w/feedshare-shrink_1280/feedshare-shrink_1280/0/1710864914997?e=1749686400&v=beta&t=0WAcqqdMKFLwu0VV68IFv7zijWSwRF61IFuLJno3Te0",
+  },
+  {
+    quote:
+      "Participating in this hackathon was an eye-opening experience for me. Not only did I get to work alongside some of the most talented individuals in the industry, but I also learned so much about the world of technology.",
+    name: "Math-Hack",
+    designation: "T-Hub, Hyderabad, India",
+    src: "https://media.licdn.com/dms/image/v2/D5622AQEy4fLDQN7bXQ/feedshare-shrink_1280/feedshare-shrink_1280/0/1726412557854?e=1749686400&v=beta&t=SyhltaBYF169O2juoUEixA2xW78gLsEMsy3K5yCKzuc",
+  },
+  {
+    quote:
+      "This experience was packed with invaluable insights from industry experts and hands-on learning. I had the opportunity to work on real-world projects, which not only enhanced my technical skills but also provided a platform to network with like-minded individuals.",
+    name: "IDE BootCamp by MoE",
+    designation: "Vizag, Andhra Pradesh, India",
+    src: "https://media.licdn.com/dms/image/v2/D5622AQEnLsUnHzb5Iw/feedshare-shrink_1280/feedshare-shrink_1280/0/1728033074535?e=1749686400&v=beta&t=HWKL075iKYNWRE4MlGZR6hVhVuK7hJPbuLOr7G7jxOY",
+  },
+  
 ];
 
 const projects = [

@@ -21,12 +21,12 @@ function Footer() {
               href={info.link} // Use the link from the socialMedia data
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300 overflow-hidden transition-transform duration-600 hover:scale-105"
             >
               <img
                 src={info.icon}
                 alt={info.name}
-                className="w-auto h-auto cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+                className="w-auto h-auto cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300 overflow-hidden transition-transform duration-600 hover:scale-105"
               />
             </a>
           ))}

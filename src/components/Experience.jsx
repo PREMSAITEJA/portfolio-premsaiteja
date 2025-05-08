@@ -31,11 +31,17 @@ const ExperienceCard = ({ experience }) => {
       }}
       icon={
         <div className="flex justify-center items-center w-full h-full">
-          <img
-            src={experience.icon}
-            alt={experience.company_name}
-            className="w-full h-full object-cover rounded-full" // Ensures the image fits and is fully rounded
-          />
+          <a
+            href={experience.certificateLink} // Link to the certificate
+            target="_blank" // Opens the link in a new tab
+            rel="noopener noreferrer" // Ensures security for external links
+          >
+            <img
+              src={experience.icon}
+              alt={experience.company_name}
+              className="w-full h-full object-cover rounded-full overflow-hidden transition-transform duration-600 hover:scale-105" // Added hover effect
+            />
+          </a>
         </div>
       }
     >
@@ -45,7 +51,14 @@ const ExperienceCard = ({ experience }) => {
           className="text-secondary text-[16px] font-semibold"
           style={{ margin: 0 }}
         >
-          {experience.company_name}
+          <a
+            href={experience.certificateLink} // Link to the certificate
+            target="_blank" // Opens the link in a new tab
+            rel="noopener noreferrer" // Ensures security for external links
+            className="text-secondary hover:text-purple-300 transition-colors duration-300" // Styling for hover effect
+          >
+            {experience.company_name}
+          </a>
         </p>
       </div>
 
