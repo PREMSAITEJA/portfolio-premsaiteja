@@ -72,30 +72,28 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Article Summarizer with GPT4.",
-    des: "The AI Article Summarizer is a web application that allows users to summarize any article by simply pasting the article's link into the webpage. This tool leverages advanced machine learning techniques and the OpenAI API to generate concise summaries, making it easier for users to digest large amounts of information quickly.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg","/git.svg","/tail.svg", "/ts.svg",],
+    title: "BujjiAi-Article Summarizer",
+    des: "Simplify your reading with Summize , an open-source article Summarizer that transforms lengthy articles into clear and concise summaries.",
+    img: "../public/p1.svg",
+    iconLists: ["../public/re.svg", "../public/cloud.svg", "../public/tail.svg",],
     link: "https://github.com/PREMSAITEJA/ArticleSummarize",
-    liveSite: "https://bujjigpt4.netlify.app/",
+    liveSite:"https://bujjigpt4.netlify.app/"
   },
   {
     id: 2,
-    title: "Emotional Support Chatbot",
-    des: "The Emotional Support Chatbot Application is a web-based platform designed to provide users with a safe space to express their feelings and receive empathetic responses. Built using React.js, Node.js, and Express.js, this application utilizes the OpenAI API to generate human-like conversations.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/PREMSAITEJA/Emotional-Support-ChatBot",
-    liveSite: "https://example.com/project2",
+    title: "Emotional Support ChatBot 🤖",
+    des: "This chatbot is for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.",
+    img: "../public/p2.svg",
+    iconLists: ["", "../public/python-svgrepo-com.svg", "../public/cloud.svg", "../public/stream.svg"],
+    link: "https://github.com/PREMSAITEJA/Emotional-Support-ChatBot/tree/main",
   },
   {
     id: 3,
-    title: "DesignSphere",
-    des: "A REAL-Time designers collaboration and engagement platform. It allows designers to share their work, get feedback, and collaborate on projects in real-time. The platform is built using React.js, Node.js, and Express.js, and utilizes the OpenAI API for generating design suggestions and feedback.",
+    title: "Design Sphere",
+    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/p3.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/PREMSAITEJA/DesignSphere",
-    liveSite: "https://example.com/project3",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg",],
+    link: "/ui.aiimg.com",
   },
   // {
   //   id: 4,
@@ -106,7 +104,6 @@ export const projects = [
   //   link: "/ui.apple.com",
   // },
 ];
-
 
 export const companies = [
   {

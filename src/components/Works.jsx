@@ -29,7 +29,7 @@ const RecentProjects = () => {
               <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-[90vw] sm:w-[20rem] md:w-[22rem] lg:w-[24rem] h-auto rounded-xl border p-4 sm:p-6">
                 <CardItem
                   translateZ="20"
-                  className="text-lg md:text-xl font-bold text-neutral-600 dark:text-white line-clamp-1"
+                  className="text-lg md:text-xl font-bold text-neutral-600 dark:text-white line-clamp-2"
                 >
                   {project.title}
                 </CardItem>
