@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/premsaiteja', // Base URL for the app
   server: {
     port: 3000, // Ensure Bun uses the correct port
   },

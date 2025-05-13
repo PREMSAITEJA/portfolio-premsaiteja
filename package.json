@@ -1,12 +1,15 @@
 {
   "name": "premsaiteja_portfolio",
   "private": true,
+  "homepage": "https://PREMSAITEJA.github.io/portfolio-premsaiteja/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "bun vite",
     "build": "bun vite build",
-    "preview": "bun vite preview"
+    "preview": "bun vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
@@ -22,6 +25,7 @@
     "emailjs-com": "^3.2.0",
     "express": "^5.1.0",
     "framer-motion": "^9.1.7",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.508.0",
     "maath": "^0.5.2",
     "mini-svg-data-uri": "^1.4.4",
