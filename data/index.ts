@@ -84,7 +84,7 @@ export const projects = [
     title: "Emotional Support ChatBot 🤖",
     des: "This chatbot is for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.",
     img: "../public/p2.svg",
-    iconLists: [ "../public/cloud.svg", "../public/stream.svg"],
+    iconLists: [ "../public/stream.svg","vs-code.svg","/python.svg"],
     link: "https://github.com/PREMSAITEJA/Emotional-Support-ChatBot/tree/main",
   },
   {
@@ -92,7 +92,7 @@ export const projects = [
     title: "Design Sphere",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/p3.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg",],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/app.svg",],
     link: "/ui.aiimg.com",
   },
   // {
