@@ -84,7 +84,7 @@ export const projects = [
     title: "Emotional Support ChatBot 🤖",
     des: "This chatbot is for informational purposes only and is not a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.",
     img: "../public/p2.svg",
-    iconLists: ["", "../public/python-svgrepo-com.svg", "../public/cloud.svg", "../public/stream.svg"],
+    iconLists: [ "../public/cloud.svg", "../public/stream.svg"],
     link: "https://github.com/PREMSAITEJA/Emotional-Support-ChatBot/tree/main",
   },
   {
