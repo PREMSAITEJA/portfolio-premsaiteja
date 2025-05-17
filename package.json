@@ -9,7 +9,8 @@
     "build": "bun vite build",
     "preview": "bun vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "start": "serve -s dist -p $PORT"
   },
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
