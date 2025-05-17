@@ -4,8 +4,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   // base: '/premsaiteja', // Base URL for the app
-  server: {
-    port: 3000, // Ensure Bun uses the correct port
+ server: {
+    host: '0.0.0.0', // Bind to all network interfaces
+    port: process.env.PORT ? Number(process.env.PORT) : 3000, // Use Render's PORT or default to 3000
   },
   build: {
     target: 'esnext', // Optimize for modern browsers
