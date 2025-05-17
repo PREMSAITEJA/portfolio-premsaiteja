@@ -38,9 +38,6 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-  {
-    
-  },
 ];
 
 const services = [
@@ -180,21 +177,21 @@ const testimonials = [
       "This 30-hour coding marathon was a platform for innovation, challenging us to unlock the true potential of technology. It was an exhilarating experience to compete and collaborate with talented peers, as we developed proof-of-concepts for transformative solutions.",
     name: "#30 Hacks Hackathon by GlobalLogic",
     designation: "Delhi , India",
-    src: "https://media.licdn.com/dms/image/v2/D5622AQHIMjZP2vTh4w/feedshare-shrink_1280/feedshare-shrink_1280/0/1710864914997?e=1749686400&v=beta&t=0WAcqqdMKFLwu0VV68IFv7zijWSwRF61IFuLJno3Te0",
+    src: "https://res.cloudinary.com/dybjklvdl/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1747399365/1710864914997_glxu2f.jpg",
   },
   {
     quote:
       "Participating in this hackathon was an eye-opening experience for me. Not only did I get to work alongside some of the most talented individuals in the industry, but I also learned so much about the world of technology.",
     name: "Math-Hack",
     designation: "T-Hub, Hyderabad, India",
-    src: "https://media.licdn.com/dms/image/v2/D5622AQEy4fLDQN7bXQ/feedshare-shrink_1280/feedshare-shrink_1280/0/1726412557854?e=1749686400&v=beta&t=SyhltaBYF169O2juoUEixA2xW78gLsEMsy3K5yCKzuc",
+    src: "https://res.cloudinary.com/dybjklvdl/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1747399521/1726412557854_faxgeo.jpg",
   },
   {
     quote:
       "This experience was packed with invaluable insights from industry experts and hands-on learning. I had the opportunity to work on real-world projects, which not only enhanced my technical skills but also provided a platform to network with like-minded individuals.",
     name: "IDE BootCamp by MoE",
     designation: "Vizag, Andhra Pradesh, India",
-    src: "https://media.licdn.com/dms/image/v2/D5622AQEnLsUnHzb5Iw/feedshare-shrink_1280/feedshare-shrink_1280/0/1728033074535?e=1749686400&v=beta&t=HWKL075iKYNWRE4MlGZR6hVhVuK7hJPbuLOr7G7jxOY",
+    src: "https://res.cloudinary.com/dybjklvdl/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1747399580/1728033074535_jmnq5u.jpg",
   },
   
 ];
