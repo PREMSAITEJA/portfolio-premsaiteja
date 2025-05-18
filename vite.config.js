@@ -11,6 +11,8 @@ export default defineConfig({
   build: {
     target: 'esnext', // Optimize for modern browsers
     minify: 'esbuild', // Use esbuild for faster builds
+    sourcemap: false, // <--- add this line to silence sourcemap warnings
+    chunkSizeWarningLimit: 2000, // (in KB, default is 500)
   },
   define: {
     'process.env': {} // Or specific environment variables you need
