@@ -1,9 +1,16 @@
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    setIsMobile(window.innerWidth < 500);
+  }, []);
+
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -24,7 +31,11 @@ const Hero = () => {
           </p>
         </div>
       </div>
+      {isMobile ? (
+        <img src="/p1.png" alt="Computer" className="mx-auto w-2/3" />
+      ) : (
         <ComputersCanvas />
+      )}
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>

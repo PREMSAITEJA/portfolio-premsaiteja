@@ -74,10 +74,10 @@ export const projects = [
     id: 1,
     title: "BujjiAi-Article Summarizer",
     des: "Simplify your reading with Summize , an open-source article Summarizer that transforms lengthy articles into clear and concise summaries.",
-    img: "../public/p1.svg",
+    img: "../public/p1.png",
     iconLists: ["../public/re.svg", "../public/cloud.svg", "../public/tail.svg",],
     link: "https://github.com/PREMSAITEJA/ArticleSummarize",
-    liveSite:"https://bujjigpt4.netlify.app/"
+    liveSite:"https://bujjigpt4.netlify.app/",
   },
   {
     id: 2,
@@ -86,6 +86,7 @@ export const projects = [
     img: "../public/p2.svg",
     iconLists: [ "../public/stream.svg","vs-code.svg","/python.svg"],
     link: "https://github.com/PREMSAITEJA/Emotional-Support-ChatBot/tree/main",
+    liveSite:"https://discuss.streamlit.io/t/serene-talk-the-emotional-support-chatbot/57564",
   },
   {
     id: 3,
@@ -93,7 +94,8 @@ export const projects = [
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
     img: "/p3.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/app.svg",],
-    link: "/ui.aiimg.com",
+    link: "https://github.com/PREMSAITEJA/StartUP",
+    liveSite:"https://designspheree.netlify.app/sign-in"
   },
   // {
   //   id: 4,
