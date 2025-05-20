@@ -33,7 +33,7 @@ const Hero = () => {
       </div>
       {isMobile ? (
         // <img src="/p1.png" alt="Computer" className="mx-auto w-2/3" />
-      null
+        null
       ) : (
         <ComputersCanvas />
       )}
