@@ -3,7 +3,7 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card"; // Assuming the path to 3d-card.tsx
-import { projects } from "../../data"; // Importing the projects data
+import { projects } from "../../dist"; // Importing the projects data
 
 const RecentProjects = () => {
   if (!projects || projects.length === 0) {

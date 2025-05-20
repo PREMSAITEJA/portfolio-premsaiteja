@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { socialMedia } from "../../data"; // Ensure the correct path to the data file
+import { socialMedia } from "../../dist"; // Ensure the correct path to the data file
 
 function Footer() {
   return (
