@@ -26,8 +26,8 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>PREM SAI TEJA THULVA</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop Machine Learning through NLP and Emerging Applications, user <br className='sm:block hidden' />
-            interfaces and web applications
+          I don't just code; I orchestrate symphonies of data, where NLP is my melody, 
+          user interfaces and web applications are the stages for innovation.
           </p>
         </div>
       </div>
