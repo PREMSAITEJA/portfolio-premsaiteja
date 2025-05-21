@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card"; // Assuming the path to 3d-card.tsx
