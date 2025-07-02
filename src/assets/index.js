@@ -30,6 +30,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+// Social Media Icons
+import linkedin from "./Linkedin.png";
+import twitter from "./twitter.png";
+import instagram from "./instagram.png";
+
 export {
   logo,
   backend,
@@ -59,4 +64,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  linkedin,
+  twitter,
+  instagram,
 };

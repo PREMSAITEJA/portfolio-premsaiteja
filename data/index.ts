@@ -1,3 +1,5 @@
+import { github, linkedin, twitter, instagram } from "../src/assets";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
@@ -175,25 +177,25 @@ export const socialMedia = [
   {
     id: 1,
     name: "GitHub",
-    icon: "../src/assets/github.png", // Correct path to the icon
-    link: "https://github.com/PREMSAITEJA", // Valid GitHub link
+    icon: github, // Now using imported asset instead of string path
+    link: "https://github.com/PREMSAITEJA",
   },
   {
     id: 2,
     name: "LinkedIn",
-    icon: "../src/assets/Linkedin.png",
+    icon: linkedin,
     link: "https://www.linkedin.com/in/thulva-pram-sai-teja-51b0ab244/",
   },
   {
     id: 3,
     name: "Twitter",
-    icon: "../src/assets/twitter.png",
+    icon: twitter,
     link: "https://x.com/TejaSai30024",
   },
   {
     id: 4,
     name: "Instagram",
-    icon: "../src/assets/instagram.png",
+    icon: instagram,
     link: "https://www.instagram.com/prem_sai_tej_/",
   },
 ];
