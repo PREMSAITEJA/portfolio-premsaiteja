@@ -25,7 +25,7 @@ function Footer() {
                 <img
                   src={info.icon}
                   alt={info.name}
-                  className="w-10 h-10 object-contain"
+                  className="w-8 h-8 object-contain"
                 />
               </a>
             ))}
