@@ -176,7 +176,7 @@ const testimonials = [
     quote:
       "This 30-hour coding marathon was a platform for innovation, challenging us to unlock the true potential of technology. It was an exhilarating experience to compete and collaborate with talented peers, as we developed proof-of-concepts for transformative solutions.",
     name: "#30 Hacks Hackathon by GlobalLogic",
-    designation: "Delhi , India",
+    designation: "Delhi, India",
     src: "https://res.cloudinary.com/dybjklvdl/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1747399365/1710864914997_glxu2f.jpg",
   },
   {
@@ -193,7 +193,6 @@ const testimonials = [
     designation: "Vizag, Andhra Pradesh, India",
     src: "https://res.cloudinary.com/dybjklvdl/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1747399580/1728033074535_jmnq5u.jpg",
   },
-  
 ];
 
 const projects = [
