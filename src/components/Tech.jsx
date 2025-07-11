@@ -107,7 +107,7 @@ const Tech = () => {
       <br />
       
       <div className="flex flex-row flex-wrap justify-center gap-6 md:gap-10">
-        {technologies.map((technology) => (
+        {[...technologies].reverse().map((technology) => (
           <TechIcon 
             key={technology.name} 
             technology={technology} 
